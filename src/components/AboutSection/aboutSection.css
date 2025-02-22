@@ -1,0 +1,11 @@
+/* src\components\AboutSection\aboutSection.css
+*/
+
+.about .content{
+    padding: 20px 7rem;
+p{
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+}
