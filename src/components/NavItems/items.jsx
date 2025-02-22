@@ -9,31 +9,31 @@ export const items = [
     {
         id:1,
         icon:<ImHome className="icon"/>,
-        href: '#/',
+        href: '/',
         name:'Home'
     },
     {
         id:2,
         icon: <FaCircleInfo className="icon"/>,
-        href: '#/about',
+        href: '/about',
         name:'About'
     },
     {
         id:3,
         icon:<MdHomeRepairService className="icon"/>,
-        href: '#/services',
+        href: '/services',
         name:'Service'
     },
     {
         id:4,
         icon:<BiSolidContact className="icon"/>,
-        href: '#/contact',
+        href: '/contact',
         name:'Contact'
     },
     {
         id:5,
         icon:"",
-        href: '#/signup',
+        href: '/signup',
         name:'Sign Up',
         signin: true
     },
