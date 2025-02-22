@@ -10,13 +10,13 @@ const items = [
     },
     {
         id: 2,
-        image: import.meta.env.BASE_URL+"assets/img03.jpg",
+        image: import.meta.env.BASE_URL+"assets/img/03.jpg",
         title: "Trip in Malaysia",
         description: "Malaysia, is a country in Southeast Asia. The federal constitutional monarchy consists of thirteen states and three federal territories, separated by the South China Sea into two regions, Peninsular Malaysia and Borneo's East Malaysia"
     },
     {
         id: 3,
-        image: import.meta.env.BASE_URL+"assets/img06.jpg",
+        image: import.meta.env.BASE_URL+"assets/img/06.jpg",
         title: "Trip in France",
         description: "France, officially the French Republic is a transcontinental country predominantly located in Western Europe and spanning overseas regions and territories in the Americas and the Atlantic, Pacific and Indian Oceans."
     },
