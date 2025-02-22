@@ -9,7 +9,7 @@ export const items = [
     {
         id:1,
         icon:<ImHome className="icon"/>,
-        href: '/',
+        href: `${import.meta.env.PUBLIC_URL}/`,
         name:'Home'
     },
     {
