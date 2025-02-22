@@ -24,7 +24,7 @@ const items = [
 const AboutSection = () => {
   return (
     <div>
-      <Hero content={<h1>About</h1>} hero={'hero2'} img={'/assets/img/07.jpg'} />
+      <Hero content={<h1>About</h1>} hero={'hero2'} img={'/public/assets/img/07.jpg'} />
       {
         items.map((item) => {
           return (
