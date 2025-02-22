@@ -9,7 +9,7 @@ import TitleSection from "../../components/TitleSection/TitleSection"
 const Services = () => {
   return (
     <div>
-        <Hero content={<h1>Services</h1>} hero={'hero2'} img={'/public/assets/img/08.jpg'}/>
+        <Hero content={<h1>Services</h1>} hero={'hero2'} img={import.meta.env.BASE_URL+'assets/img/08.jpg'}/>
         <TitleSection title={'Recent Trips'} desc={'You can discover unique destination using Google Maps.'} />
         <Card/>
     </div>

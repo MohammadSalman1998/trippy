@@ -25,7 +25,7 @@ export const itemsInput = [
 const Contact = () => {
   return (
     <div>
-      <Hero content={<h1>Contact</h1>} hero={'hero2'} img={'/public/assets/img/05.jpg'} />
+      <Hero content={<h1>Contact</h1>} hero={'hero2'} img={import.meta.env.BASE_URL+'assets/img/05.jpg'} />
       <ContactUs title={'Send a message to us!'} itemsInput={itemsInput} showTextArea={true} btnTitle={'Send Message'}/>
       </div>
   )

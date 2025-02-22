@@ -32,7 +32,7 @@ export const itemsInput = [
 const SignUp = () => {
   return (
     <div>
-      <Hero content={<h1>Sign Up</h1>} hero={'hero2'} img={'/public/assets/img/05.jpg'} />
+      <Hero content={<h1>Sign Up</h1>} hero={'hero2'} img={import.meta.env.BASE_URL+'assets/img/05.jpg'} />
       <ContactUs title={'Create an account'} itemsInput={itemsInput}  btnTitle={'Register'} otherLink={<p>Have already an account? <Link to={'/'}>Login here</Link></p>}/>
       </div>
   )
